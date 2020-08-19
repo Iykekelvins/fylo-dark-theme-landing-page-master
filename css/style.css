@@ -1,0 +1,354 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color:hsl(216, 14%, 21%);
+}
+
+h1,h2,h3,h4,h5,h6,a{
+    color: hsl(0, 0%, 100%);
+    font-family: "Raleway", sans-serif;
+}
+
+p{
+    font-weight: 200;
+}
+
+.main{
+    background: url(../images/bg-curvy-desktop.svg)  center  no-repeat;
+}
+
+
+.nav-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav-elements a{
+    display: inline;
+    text-decoration: none;
+    padding:15px;
+}
+
+.intro{
+    display: grid;
+    place-items: center;
+    padding-top: 55px;
+}
+
+.btn{
+    border: none;
+    border-radius: 50px;
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    cursor:pointer
+}
+
+.get-btn{
+    background-color:hsl(198, 60%, 50%);
+    padding:10px 50px;
+    margin-top: 10px;
+}
+
+.get-btn-2{
+    background-color:hsl(176, 68%, 64%);
+    padding:0 15px;
+    margin-top: 15px;
+}
+
+.intro-items{
+    display: grid;
+    place-items: center;
+    margin: 30px 0 20px;
+}
+
+.intro-items h4{
+    padding-top: 18px;
+}
+
+.stay-productive a{
+    color:hsl(176, 68%, 64%);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    padding-top: 15px;
+}
+
+.profiles{
+    border-radius: 5px;
+    background-color: hsl(219, 30%, 18%);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    padding:20px;
+    width:250px;
+    height: auto;
+}
+
+.profile-info{
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img{
+    border-radius: 100%;
+    padding-right: 5px;
+}
+
+.profile-info h6{
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.get-access{
+    margin:50px auto;
+    border-radius: 5px;
+    background-color: hsl(217, 28%, 15%);
+    width:500px;
+    padding:20px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.get-access h3, .get-access p{
+    text-align: center;
+    padding-top: 15px;
+}
+
+#email{
+    width:320px;
+    padding:8px;
+    margin-top: 15px;
+    border-radius: 50px;
+    color: hsl(0, 0%, 100%);
+    border:none;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.footer{
+    background-color: hsl(216, 53%, 9%);
+    margin-top: 50px;
+}
+
+.footer div{
+    padding-bottom:10px;
+    padding-top: 10px;
+}
+
+.footer span{
+    padding-right: 8px;
+}
+
+.footer-info{
+    padding-top: 40px;
+}
+
+.footer a{
+    text-decoration: none;
+}
+
+@media screen and (min-width:1000px){
+    .intro h2{
+        line-height: 1.2em;
+        text-align: center;
+        width:30%;
+        padding-top: 15px;
+    }
+    .intro p{
+        line-height: 1.4em;
+        text-align: center;
+        width:33%;
+        padding-top: 15px;
+    }
+
+    .intro-details{
+        display: flex;
+        margin:0 auto;
+    }
+    .intro-items p{
+        width: 50%;
+        text-align: center;
+        line-height: 1.4em;
+        padding-top: 10px;
+    }
+    .stay-productive{
+        display: grid;
+        place-items: center;
+        grid-template-columns: 1fr 1fr;
+        margin: 40px auto;
+    }
+    .stay-productive h3{
+        font-size: 1.3em;
+        line-height: 1.2em;
+        width:30%;
+    }
+    .stay-productive p{
+        width: 80%;
+        line-height: 1.4em;
+        padding-top: 15px;
+    }
+    .profiles-display{
+        display: flex;
+        margin:80px 0 ;
+        justify-content: space-evenly;
+    }
+    .profiles p{
+        width:100%;
+        padding-bottom: 20px;
+        font-weight: 400;
+    }
+    .form{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding:90px;
+    }
+    .footer-info{
+    padding-left: 90px;
+    }
+    #email{
+        margin-right: 5px;
+    }
+}
+
+@media screen and (max-width:999px){ 
+    .intro h2{
+        line-height: 1.2em;
+        text-align: center;
+        width:40%;
+        padding-top: 15px;
+    }
+    .intro p{
+        line-height: 1.4em;
+        text-align: center;
+        width:40%;
+        padding-top: 15px;
+    }
+    .intro-details{
+        display: grid;
+        place-items: center;
+        margin: 0 auto;
+    }
+    .intro-items{
+        margin-top:60px;
+    }
+    .intro-items p{
+        width: 50%;
+        text-align: center;
+        line-height: 1.4em;
+        padding-top: 10px;
+    }
+    .stay-productive{
+        display: grid;
+        place-items: center;
+        margin: 60px auto;
+    }
+    .stay-productive h3{
+        text-align: center;
+        line-height: 1.4em;
+        padding-top: 15px;
+    }
+    .stay-productive p{
+        text-align: center;
+        width:50%;
+        margin: 0 auto;
+        line-height: 1.4em;
+        padding-top: 15px;
+    }
+    .fylo-link{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .profiles-display{
+        display: grid;
+        place-items: center;
+        margin:50px;
+    }
+    .profiles{
+        margin-bottom: 40px;
+    }
+    .profiles p{
+        padding-bottom: 20px;
+    }
+    .get-access{
+        width:300px;
+    }
+    .get-btn-2{
+        background-color:hsl(176, 68%, 64%);
+        padding:10px 45px;
+    }
+    #email{
+        width:200px;
+    }
+    .form{
+        display: grid;
+        place-items: center;
+    }
+    .lorem-text{
+        width:70%;
+    }
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        padding:90px 20px 20px;
+    }
+}
+
+@media screen and (max-width:526px){
+    .main{
+        background: none;
+    }
+    .nav-elements a{
+        padding: 5px;
+    }
+    .intro img{
+        height: 200px;
+    }
+    .intro h2,.intro p, .intro-items p, .stay-productive p{
+        width: 70%;
+    }
+    .stay-productive > img{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:390px){
+    .intro h2{
+        width: 75%;
+    }
+    .intro-items p{
+        width: 70%;
+    }
+    .stay-productive p{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width:368px){
+    .intro h2, .intro p, .intro-items p{
+        width: 90%;
+    }
+    .get-access{
+        width:250px;
+    }
+    .profiles{
+        width: 200px;
+    }
+    .nav-elements a{
+        padding: 3px;
+    }
+    .logo-img{
+        height:20px;
+    }
+    .stay-productive p{
+        width: 85%;
+    }
+}
